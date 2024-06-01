@@ -1,0 +1,37 @@
+body {
+    margin: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#topDiv {
+    display: flex;
+    background-color: black;
+    color: white;
+    justify-content: center;
+}
+#topDiv a img {
+    width: 100px;
+    height: 100px;
+}
+#topDiv h1 {
+    margin-left: 5%
+}
+.stepTitle {
+    text-align: center;
+    border: solid;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: #b0a586;
+}
+.stepContent {
+    text-align: center;
+    text-align: center;
+    border: solid;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: none;
+}
+.stepContent img {
+    width: 50vw;
+}
